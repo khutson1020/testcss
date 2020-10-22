@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', Arial;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato'), local('Lato'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input[type="submit"] {
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Lato', Arial;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato'), local('Lato'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  height: 30px;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 112px;
+}
+
+#btnCancel::after {
+    bottom: 3px;
+    color: #ffffff;
+    content: "Add Funds";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    right: 35px;
+    width: 136px;
+    z-index: 2;
+}
+
+select,
+input[type="text"] {
+  border-radius: 3px;
+  border: solid 1px #727272;
+  color: #373737;
+  font-size: 16px;
+  height: 60px;
+  line-height: 1.18;
+  margin: 0 auto 18px auto;
+  padding-left: 16px;
+  padding-top: 22px;
+}
+
+input[type="submit"] {
+    color: #0272d9;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #ffffff;
+    padding-left: 8px;
+    text-indent: 9px;
+    width: 150px;
+}
+
+#creditcardtab {
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+#creditcardtab ~ div {
+    height: 30px;
+    position: relative;
+}
+
+#btnSubmit {
+  background-color: #0272d9;
+  border: solid 1.9px #0272d9;
+  float: right;
+  margin-left: 23px;
+  margin-right: 50px;
+}
+
+#btnCancel {
+  border: solid 1.9px #0272d9;
+  color: #0272d9;
+  float: right;
+}
+
+.PageBody {
+    width: 100%;
+}
+
+.PageContent {
+    width: 100%;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+.FieldSetOrder {
+    display: none;
+}
+
+.FieldsetCreditCard {
+    border: none;
+}
+
+.FormNameValue::before,
+.FormCardNumberValue::after,
+.FormExpDateValue::before,
+.FormExpDateValue::after,
+.FormCvvValue::before {
+    color: #727272;
+    font-family: 'Lato', Arial;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato'), local('Lato'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+}
+
+.FormNameValue::before {
+    content: "Cardholder Name \00a0\00a0 *";
+    font-size: 12px;
+    left: 16px;
+    line-height: 1.35;
+    position: relative;
+    top: 26px;
+}
+
+
+.FormName {
+    position: relative;   
+}
+
+.FormCardNumber {
+    position: relative;
+}
+
+.FormCardNumberValue::after {
+    content: "Visa/Mastercard Only \00a0\00a0 *";
+    font-size: 12px;
+    left: 16px;
+    line-height: 1.35;
+    position: absolute;
+    top: 11px;
+}
+
+.FormExpDate {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.FormExpDateValue::before {
+    content: "Exp. Month \00a0*";
+    font-size: 12px;
+    left: 16px;
+    line-height: 1.35;
+    position: absolute;
+    top: 11px;  
+}
+
+.FormExpDateValue::after {
+    content: "Exp. Year \00a0*";
+    font-size: 12px;
+    left: 180px;
+    line-height: 1.35;
+    position: absolute;
+    top: 11px;  
+}
+
+.FormCvvValue::before {
+    content: "CVV \00a0*";
+    font-size: 12px;
+    left: 16px;
+    line-height: 1.35;
+    position: absolute;
+    top: 11px;  
+}
+
+legend {
+    display: none;
+}
+
+.FormLeftColumn {
+    display: none;
+}
+
+.FormExpDateValue {
+    color: #ffffff;
+}
+
+.FormCvv {
+    float: left;
+    position: relative;
+    width: 150px;
+}
+
+.FormCvvValue > input {
+    width: 150px;
+}
+
+.FormDescription {
+    display: none;
+}
+
+#ValidationMessage,
+.validation-summary-errors > ul > li {
+  color: #d10000;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+  line-height: 18px;
+  width: 550px;
+}
+
+#ValidationMessage {
+    background-color: rgba(241, 69, 61, 0.1);
+    padding: 16px 16px 32px 32px;
+}
+
+#ValidationMessage::before {
+    background-image: url('ic-error-red.svg');
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    content: "- ";
+    height: 32px;
+    left: 16px;
+    padding-left: 0px;
+    position: absolute;
+    top: 12px;
+    width: 32px;
+    z-index: 100;
+}
+
+.validation-summary-valid > ul {
+    margin: 0;
+}
+
+
+.validation-summary-errors > ul {
+    background-color: rgba(241, 69, 61, 0.1);
+    display: none;
+    margin: 0 0 10px 0;
+    padding: 0px 0px 32px 66px;
+}
+
+.validation-summary-errors > ul > li {
+    display: none;
+    list-style-type: none;
+}
+
+.validation-summary-errors > ul > li:first-of-type {
+    display: block;
+}
+
+.validation-summary-errors > ul > li::before {
+    content: "- ";
+}
+
+
+input ~ .field-validation-error {
+    display: none;
+}
+
+input.ErrorBackground,
+select.ErrorBackground {
+    border-color: #d10000;
+}
+
+.ErrorMessage {
+    box-sizing: border-box;
+    width: 100%;
+}

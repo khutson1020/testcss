@@ -161,6 +161,7 @@ fieldset {
     line-height: 1.35;
     position: absolute;
     top: 11px;
+    minlength: "16";
 }
 
 .FormExpDate {

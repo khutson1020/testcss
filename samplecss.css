@@ -34,17 +34,6 @@ input[type="submit"] {
   width: 112px;
 }
 
-#btnCancel::after {
-    bottom: 3px;
-    color: #ffffff;
-    content: "Add Funds";
-    display: block;
-    pointer-events: none;
-    position: absolute;
-    right: 35px;
-    width: 136px;
-    z-index: 2;
-}
 
 select,
 input[type="text"] {
@@ -155,13 +144,13 @@ fieldset {
 }
 
 .FormCardNumberValue::after {
-    content: "Visa/Mastercard Only \00a0\00a0 *";
-    font-size: 12px;
+    content: "Visa/Mastercard/Discover Only \00a0\00a0 *";
+    font-size: 15px;
     left: 16px;
     line-height: 1.35;
     position: absolute;
     top: 11px;
-    minlength: "16";
+    
 }
 
 .FormExpDate {

@@ -1,0 +1,2141 @@
+@import url(https://fonts.googleapis.com/css?family=Open) +Sans:400,600,700|Raleway:400,500,700|Droid+Sans:400,700|Roboto:400,500,700;
+body{
+    color:#333;
+    font-family:Roboto!important;
+    background-color:#fff!important;
+    font-family:inherit;
+    font-size:14px!important;
+    font-weight:400;
+    line-height:17px
+}
+table tbody{
+    font-family:Roboto,sans-serif;
+    color:#333
+}
+a.custom-link:link{
+    font-family:Roboto!important;
+    font-size:14px!important;
+    color:#0080a6;
+    text-decoration:none;
+    font-weight:500
+}
+a.custom-link:hover{
+    font-family:Roboto!important;
+    font-size:14px!important;
+    color:#002776!important;
+    text-decoration:underline;
+    font-weight:500
+}
+a.custom-link:visited{
+    font-family:Roboto!important;
+    font-size:14px!important;
+    color:#0080a6;
+    text-decoration:none;
+    font-weight:500
+}
+.custom-default-btn.active,.custom-default-btn:active,.custom-default-btn:focus,.custom-default-btn:hover{
+    color:#fff;
+    background-color:#002776;
+    border-color:#002776
+}
+.custom-default-btn{
+    color:#fff;
+    background-color:#0080a6;
+    border-color:#002776;
+    border-radius:0!important;
+    padding:6px 12px
+}
+.custom-default-btn:active{
+    background-image:none
+}
+.custom-default-btn.active{
+    background-image:none
+}
+.custom-default-btn.disabled{
+    background-color:#0080a6;
+    border-color:#002776
+}
+.custom-default-btn.disabled:hover{
+    background-color:#0080a6;
+    border-color:#002776
+}
+.custom-default-btn.disabled:focus{
+    background-color:#0080a6;
+    border-color:#002776
+}
+.custom-default-btn.disabled:active{
+    background-color:#0080a6;
+    border-color:#002776
+}
+.btn-success.active,.btn-success:active,.btn-success:focus,.btn-success:hover,.custom-success-btn.active,.custom-success-btn:active,.custom-success-btn:focus,.custom-success-btn:hover{
+    color:#fff;
+    background-color:#859955;
+    border-color:#859955
+}
+.custom-success-btn{
+    color:#fff;
+    background-color:#9fc163;
+    border-color:#859955;
+    border-radius:0!important;
+    padding:6px 12px
+}
+.custom-success-btn:active{
+    background-image:none
+}
+.custom-success-btn.active{
+    background-image:none
+}
+.custom-success-btn.disabled{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.custom-success-btn.disabled:hover{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.custom-success-btn.disabled:focus{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.custom-success-btn.disabled:active{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.custom-success-btn-sm{
+    padding:1px 10px 0 8px;
+    margin:0 12px 0 0;
+    line-height:normal;
+    border-radius:0
+}
+.custom-success-btn-sm .fa{
+    color:#fff;
+    font-size:13px;
+    margin:0
+}
+.custom-success-btn-sm span{
+    display:inline;
+    color:#fff;
+    font-size:10px
+}
+.custom-danger-btn.active,.custom-danger-btn:active,.custom-danger-btn:focus,.custom-danger-btn:hover{
+    color:#fff;
+    background-color:#ce0000;
+    border-color:#ce0000
+}
+.custom-danger-btn{
+    color:#fff;
+    background-color:#ef0303;
+    border-color:#ce0000;
+    border-radius:0!important;
+    padding:6px 12px
+}
+.custom-danger-btn:active{
+    background-image:none
+}
+.custom-danger-btn.active{
+    background-image:none
+}
+.custom-danger-btn.disabled{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.custom-danger-btn.disabled:hover{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.custom-danger-btn.disabled:focus{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.custom-danger-btn.disabled:active{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.custom-danger-btn-sm{
+    padding:1px 10px 0 8px;
+    margin:0 12px 0 0;
+    line-height:normal;
+    border-radius:0
+}
+.custom-danger-btn-sm .fa{
+    color:#fff;
+    font-size:13px;
+    margin:0
+}
+.custom-danger-btn-sm span{
+    display:inline;
+    color:#fff;
+    font-size:10px
+}
+.custom-white-btn.active,.custom-white-btn:active,.custom-white-btn:focus,.custom-white-btn:hover{
+    color:#000;
+    background-color:#e4e8e6;
+    border-color:#e4e8e6
+}
+.custom-white-btn{
+    color:#000;
+    background-color:#fff;
+    border-color:#e4e8e6;
+    border-radius:0!important;
+    padding:6px 12px
+}
+.custom-white-btn:active{
+    background-image:none
+}
+.custom-white-btn.active{
+    background-image:none
+}
+.custom-white-btn.disabled{
+    background-color:#fff;
+    border-color:#e4e8e6
+}
+.custom-white-btn.disabled:hover{
+    background-color:#fff;
+    border-color:#e4e8e6
+}
+.custom-white-btn.disabled:focus{
+    background-color:#fff;
+    border-color:#e4e8e6
+}
+.custom-white-btn.disabled:active{
+    background-color:#fff;
+    border-color:#e4e8e6
+}
+.custom-transparent-btn:active,.custom-transparent-btn:focus,.custom-transparent-btn:hover{
+    color:#fff;
+    background-color:transparent;
+    border-color:#fff
+}
+.custom-transparent-btn{
+    color:#fff;
+    background-color:transparent;
+    border-color:#fff;
+    border-radius:0!important;
+    padding:6px 12px
+}
+.custom-transparent-btn:hover{
+    border-radius:0!important
+}
+.custom-transparent-btn:focus{
+    border-radius:0!important
+}
+.custom-transparent-btn:active{
+    background-image:none
+}
+.custom-transparent-btn.disabled{
+    background-color:transparent;
+    border-color:#fff
+}
+.custom-transparent-btn.disabled:hover{
+    background-color:transparent;
+    border-color:transparent
+}
+.custom-transparent-btn.disabled:focus{
+    background-color:transparent;
+    border-color:#fff
+}
+.custom-transparent-btn.disabled:active{
+    background-color:transparent;
+    border-color:#fff
+}
+.custom-black-btn.active,.custom-black-btn:active,.custom-black-btn:focus,.custom-black-btn:hover{
+    color:#fff;
+    background-color:#000;
+    border-color:#000
+}
+.custom-black-btn{
+    color:#fff;
+    background-color:#000;
+    border-color:#000;
+    border-radius:0!important;
+    padding:6px 12px
+}
+.custom-black-btn:active{
+    background-image:none
+}
+.custom-black-btn.active{
+    background-image:none
+}
+.custom-black-btn.disabled{
+    background-color:#000;
+    border-color:#000
+}
+.custom-black-btn.disabled:hover{
+    background-color:#000;
+    border-color:#000
+}
+.custom-black-btn.disabled:focus{
+    background-color:#000;
+    border-color:#000
+}
+.custom-black-btn.disabled:active{
+    background-color:#000;
+    border-color:#000
+}
+.custom-warning-btn.active,.custom-warning-btn:active,.custom-warning-btn:focus,.custom-warning-btn:hover{
+    color:#fff;
+    background-color:#ff9322;
+    border-color:#ff9322
+}
+.custom-warning-btn{
+    color:#fff;
+    background-color:#ffa604;
+    border-color:#ff9322;
+    border-radius:0!important;
+    padding:6px 12px
+}
+.custom-warning-btn:active{
+    background-image:none
+}
+.custom-warning-btn.active{
+    background-image:none
+}
+.custom-warning-btn.disabled{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.custom-warning-btn.disabled:hover{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.custom-warning-btn.disabled:focus{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.custom-warning-btn.disabled:active{
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.btn-success{
+    color:#fff;
+    background-color:#9fc163;
+    border-color:#859955;
+    border-radius:0!important
+}
+.btn-success:active{
+    background-image:none
+}
+.btn-success.active{
+    background-image:none
+}
+.btn-success.disabled{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.btn-success.disabled:hover{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.btn-success.disabled:focus{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.btn-success.disabled:active{
+    background-color:#9fc163;
+    border-color:#859955
+}
+.alert-info{
+    color:#fff;
+    background-color:#0080a6;
+    border-color:#002776
+}
+.alert-success{
+    color:#fff;
+    background-color:#9fc163;
+    border-color:#859955
+}
+.alert-danger{
+    color:#fff;
+    background-color:#ef0303;
+    border-color:#ce0000
+}
+.alert-warning{
+    color:#fff;
+    background-color:#ffa604;
+    border-color:#ff9322
+}
+.x_panel{
+    position:relative;
+    width:100%;
+    margin-bottom:10px;
+    padding:10px 17px;
+    display:inline-block;
+    background:#fff;
+    border:1px solid #e7e7e7;
+    column-break-inside:avoid;
+    opacity:1;
+    transition:all .2s ease
+}
+.x_panel .no-panel-border{
+    border:none!important
+}
+.x_panel h1.h1-header{
+    font-family:Raleway;
+    color:#0080a6;
+    font-size:22px;
+    line-height:26px;
+    font-weight:600
+}
+.x_panel h2.h2-header{
+    font-family:Raleway;
+    color:#0080a6;
+    font-size:18px;
+    line-height:26px;
+    font-weight:500
+}
+.x_title{
+    border-bottom:2px solid #0080a6;
+    padding:1px 0 6px;
+    margin-bottom:10px
+}
+.x_title h3{
+    font-family:Raleway;
+    color:#0080a6;
+    font-size:15px;
+    line-height:19px;
+    font-weight:600;
+    margin:9px 0!important
+}
+.x_title h2{
+    font-family:Raleway;
+    color:#0080a6;
+    font-size:18px;
+    line-height:26px;
+    font-weight:500;
+    margin:5px 0 6px;
+    float:left;
+    display:block;
+    text-overflow:ellipsis
+}
+.x_title h2 small{
+    margin-left:10px
+}
+.x_content h3{
+    font-family:Raleway;
+    color:#0080a6;
+    font-size:15px;
+    line-height:19px;
+    font-weight:600
+}
+.x_content .explanation{
+    font-family:Roboto;
+    font-size:14px;
+    font-weight:400;
+    line-height:17px;
+    padding-bottom:10px;
+    clear:both
+}
+i.main-color{
+    color:#0080a6
+}
+span.main-color{
+    color:#0080a6
+}
+.bbcustom{
+    border-bottom:solid 1px #0080a6!important
+}
+.recommended-card-info-header{
+    border-bottom:solid 3px #0080a6
+}
+hr.horizontal-divider-gray{
+    border:1px solid #0080a6;
+    width:100%
+}
+hr.horizontal-line{
+    border:1px solid #0080a6!important;
+    width:100%;
+    clear:both
+}
+.checkbox{
+    width:17px;
+    height:17px
+}
+ul.bar_tabs>li.active{
+    border-right:6px solid #0080a6;
+    border-top:0;
+    margin-top:-15px
+}
+ul.bar_tabs>li.active a{
+    border-bottom:none
+}
+div.modal-header h4{
+    font-family:Raleway;
+    color:#0080a6;
+    font-size:14px;
+    line-height:17px;
+    font-weight:400
+}
+table thead tr th{
+    color:#fff!important;
+    background-color:#0080a6!important
+}
+table.dataTable.nowrap th{
+    color:#fff!important;
+    background-color:#0080a6!important;
+    border-radius:5px 5px 0 0!important;
+    border-right:solid 1px #cdcdcd
+}
+table.dataTable.no-footer{
+    border-bottom:2px solid #0080a6!important;
+    margin-bottom:5px
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>td:first-child:before,table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before{
+    top:7px!important;
+    left:4px;
+    height:14px;
+    width:14px;
+    display:block;
+    position:absolute;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:3px;
+    box-shadow:0 0 1px #444;
+    box-sizing:content-box;
+    text-align:center;
+    text-indent:0!important;
+    font-family:Arial!important;
+    font-weight:600;
+    line-height:13px!important;
+    content:'+';
+    background-color:#0080a6!important;
+    padding-top:1px;
+    padding-right:1px
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before,table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before{
+    content:'-';
+    background-color:#9fc163!important
+}
+.rates-header{
+    font-weight:500;
+    font-size:15px;
+    padding:0 5px;
+    margin:0 0 8px 0;
+    color:#0080a6;
+    border-bottom:solid 1px #0080a6
+}
+label{
+    position:absolute;
+    top:-13px;
+    left:0;
+    font-size:11px;
+    color:#0080a6;
+    transition:all .1s linear;
+    opacity:0;
+    font-weight:700
+}
+label.on{
+    color:#0080a6
+}
+label.show{
+    top:-9px;
+    opacity:1;
+    background-color:#fff;
+    padding:1px 4px 0 4px;
+    margin-left:4px;
+    color:#0080a6;
+    font-size:9px!important;
+    border-radius:2px;
+    z-index:100!important
+}
+.form-control{
+    color:#0080a6!important
+}
+#customerlastname,.input-group #cardholderfirstname{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+#BankName,#BankRoutingNumber,#BusinessAddress1,#BusinessAddress2,#BusinessName,#BusinessPhoneNumber,#BusinessTaxId,#BusinessTimeZone,#City,#ConfirmBankAccountNumber,#ConfirmBankRoutingNumber,#ConfirmBusinessTaxId,#ConfirmPhonePin,#HomePhone,#LegalBusinessName,#MobilePhone,#PhonePin,#StreetAddress1,#StreetAddress2,#StreetAddress3,#Zip,#ZipCode,#accountpassword,#businessaddress,#businessaddresscity,#businessaddresscontinued,#businessaddressziporpostal,#buyersemail,#buyersfirstname,#buyerslastname,#confirmbankaccountnumber,#confirmbankroutingnumber,#consultantid,#dateofbirth,#issuecredittransaction,#nameonthecard,#newemail,#newpassword,#oldpassword,#ownerbankaccountnumber,#physicaladdress,#physicaladdresscity,#physicaladdresscontinued,#physicaladdresscontinuedadditional,#physicaladdressziporpostal,#processcardnumber,#recipientaddress,#recipientaddressadditional,#recipientaddresscontinued,#recipientbankaccountnumber,#recipientemail,#recipientfirstname,#recipientlastname,#recipientziporpostal,#reenternewemail,#reenternewpassword,#renewalcardziporpostal,#renewalnameonthecard,#ssn,#taxidnumber,.input-group #paymentamount{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+#Invoice,#cardbrand,#cardexpirationdate,.input-group #invoicenumber{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+#EndDate,#FirstBankDeposit,#SecondBankDeposit,#StartDate,#achamounttotransfer,#donationamount,#endingdate,#flashfundsamounttotransfer,#invoiceamount,#startingdate,.input-group #amounttotransfer{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0
+}
+#BankAccountNumber,#SweepDate,#addbankaccount,#addbankaccountnumber,#addbankroutingnumber,#addconfirmbankroutingnumber,#bankaccountnumber,.input-group #bankroutingnumber{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+.input-group #achamount{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0
+}
+.input-group #paymentamount{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0
+}
+.input-group #cvvcid{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:5px 0 0 5px
+}
+#Amount,#CCNum,#Comment1,#Comment2,#Email,#MailCity,#MailStreetAddress1,#MailStreetAddress2,#MailStreetAddress3,#MailZip,#PayerName,#TransactionNumber,#UserName,#cardcvvcid,#currentemail,#customeraddress,#customeraddresscontinued,#email,#flashcardcvvcid,#grossamount,#itemnumber,#mailingaddress,#mailingaddresscity,#mailingaddresscontinued,#mailingaddresscontinuedadditional,#mailingaddressziporpostal,#processcardnumber,#renewalcardnumber,#searchaffectedaccount,#searchname,#txtRefundAmount,#username,.input-group #ziporpostalcodes{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+.input-group .input-group-addon.before{
+    border-top:solid 1px #0080a6;
+    border-right:transparent;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:5px 0 0 5px
+}
+.input-group .input-group-addon.after{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:transparent;
+    border-radius:0 5px 5px 0
+}
+input[type=search]{
+    border:solid 1px #0080a6;
+    border-radius:5px
+}
+#cardexpirationmonth,#cardexpirationyear,#cardpin,.input-group #last4digits{
+    border:solid 1px #0080a6;
+    border-radius:2px
+}
+#recommendedinfo input.form-control{
+    border:solid 1px #0080a6;
+    border-radius:5px
+}
+#recommendedinfo select.form-control{
+    border:solid 1px #0080a6;
+    border-radius:5px
+}
+#accountRetrievalRequest,#buynowbuttoncodesample,#documentcategory,#donatenowbuttoncodesample,#transactionreference,#yearddl,select#monthddl{
+    border:solid 1px #0080a6;
+    border-radius:5px
+}
+#recipientstate,select#recipientcountry{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6
+}
+#MailState,#State,#achbankaccountnumber,#achbankname,#achbankroutingnumber,#businessaddressstate,#cardbrand,#flashcardexpirationmonth,#flashcardexpirationyear,#physicaladdressstate,#recipientstate,#renewalcardbrand,#renewalcardexpirationmonth,#renewalcardexpirationyear,#searchactiontype,#storedbankaccountnumber,#storedbankroutingnumber,#storedcreditcardaddress,#storedcreditcardcity,#storedcreditcardexpirationdate,#storedcreditcardnumber,#storedcreditcardstate,#storedcreditcardzipcode,#storednameprintedonthecard,select#mailingaddressstate{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+#AuthorizationCurrency,#authorizationcurrency,#scheduledTransferddl,#transferOptions,select#Type{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+select#SweepReportType{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+.input-group textarea{
+    border-top:solid 1px #0080a6;
+    border-right:solid 1px #0080a6;
+    border-bottom:solid 1px #0080a6;
+    border-left:solid 1px #0080a6;
+    border-radius:0 5px 5px 0
+}
+#FlashCardExpirationMonth{
+    padding:0 5px 0 0!important
+}
+#FlashCardExpirationYear{
+    padding:0 5px!important
+}
+#FlashCardCVVCID{
+    padding:0 0 0 5px!important
+}
+#IssuedCreditAmount{
+    padding:0 0 0 5px
+}
+#AccountLastFourDigits,#FirstComment,#GrossAmount,#SearchName{
+    padding:0 5px 0 0
+}
+#AdvancedAuthorizationCurrency,#TransactionID{
+    padding:0 5px 0 0
+}
+#SearchActionType{
+    padding:0 5px 0 8px
+}
+#AdvancedPayerName,#AuthorizationCurrencySearch,#InvoiceNumber,#PayerEmail,#SearchAffectedName,#SecondComment,#Username{
+    padding:0 0 0 5px
+}
+@media(min-width:992px){
+    #issuecredittransaction,.input-group #cardnumber{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+}
+@media(max-width:991px) and (min-width:768px){
+    #BankName,#BusinessAddress1,#BusinessAddress2,#BusinessName,#BusinessTaxId,#City,#ConfirmBusinessTaxId,#LegalBusinessName,#MailCity,#MailStreetAddress1,#MailStreetAddress2,#MailStreetAddress3,#MailZip,#StreetAddress1,#StreetAddress2,#StreetAddress3,#Zip,#ZipCode,#businessaddress,#businessaddresscity,#businessaddresscontinued,#businessaddressziporpostal,#buyersemail,#buyersfirstname,#buyerslastname,#customerlastname,#flashcardexpirationmonth,#flashcardexpirationyear,#grossamount,#mailingaddress,#mailingaddresscity,#mailingaddresscontinued,#mailingaddresscontinuedadditional,#mailingaddressziporpostal,#physicaladdress,#physicaladdresscity,#physicaladdresscontinued,#physicaladdresscontinuedadditional,#physicaladdressziporpostal,#processcardnumber,#searchaffectedaccount,#searchname,#storedbankaccountnumber,#storedbankname,#taxidnumber,.input-group #cardholderfirstname{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#SweepReportType{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #Amount,#CCNum,#Comment1,#Comment2,#Email,#Invoice,#UserName,#searchactiontype,#username,.input-group #invoicenumber{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    .input-group #ziporpostalcodes{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #bankaccountnumber,#currentemail,#newpassword,#reenternewpassword,#renewalcardnumber,#renewalnameonthecard,#storedbankroutingnumber,.input-group #cardnumber{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    .input-group #newpin{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    .input-group #reenternewpin{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    .input-group #oldpassword{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6!important;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #CardExpirationYear,#CreditAmount{
+        padding:0 0 0 5px!important
+    }
+    #CardCVVCID,#InvoiceNumber,#PaymentAmount{
+        padding:0!important
+    }
+    #accountpassword,#recipientemail,#recipientlastname,.input-group #recipientfirstname{
+        border:solid 1px #0080a6;
+        border-radius:5px!important
+    }
+    #CreditCardExpirationMonth,#CreditCardExpirationYear{
+        padding:0!important
+    }
+    #StartDate,#startingdate,.input-group #invoiceamount{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0!important
+    }
+    .input-group #PayerName{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important;
+        padding:0 5px 0 10px!important
+    }
+    .input-group #TransactionNumber{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important;
+        padding:0 5px 0 10px!important
+    }
+    #achbankaccountnumber,#achbankroutingnumber,#cardexpirationdate,#storedcreditcardaddress,#storedcreditcardcity,#storedcreditcardexpirationdate,#storedcreditcardnumber,#storedcreditcardstate,#storedcreditcardzipcode,#storednameprintedonthecard,.input-group #cardbrand{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #MailState,#State,#businessaddressstate,#cardbrand,#mailingaddressstate,#recipientaddress,#recipientaddressadditional,#recipientaddresscontinued,#recipientstate,#recipientziporpostal,#renewalcardbrand,#renewalcardexpirationmonth,#renewalcardexpirationyear,#renewalcardziporpostal,select#physicaladdressstate{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#recipientcountry{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#SweepReportType{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #Type,#documentcategory,#scheduledTransferddl,#transferOptions,select#authorizationcurrency{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important
+    }
+    select#AuthorizationCurrency{
+        border:solid 1px #0080a6;
+        border-radius:5px;
+        padding:0 5px 0 8px
+    }
+    #FlashCardExpirationYear{
+        padding:0 0 0 5px!important
+    }
+    #AdvancedAuthorizationCurrency,#AuthorizationCurrencySearch,#FlashCardCVVCID,#IssuedCreditAmount,#TransactionID{
+        padding:0!important
+    }
+    #AccountLastFourDigits,#FirstComment,#GrossAmount{
+        padding:0
+    }
+    #AdvancedPayerName,#PayerEmail,#SearchActionType,#SearchAffectedName,#SearchName,#SecondComment,#Username{
+        padding:0
+    }
+    select#TypeToDisplay{
+        padding:0
+    }
+}
+@media(max-width:767px) and (min-width:421px){
+    #CardCVVCID,#CustomerLastName,#IssuedCreditAmount,#PaymentAmount,div #CustomerFirstName{
+        padding:0!important
+    }
+    #CreditAmount,div #CardExpirationYear{
+        padding:0 0 0 5px!important
+    }
+    #customerlastname,.input-group #cardholderfirstname{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #SweepDate,#buyersemail,#buyerslastname,#searchaffectedaccount,#searchname,.input-group #buyersfirstname{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #searchactiontype,#storedbankname,.input-group #invoicenumber{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #City,#StartDate,#StreetAddress1,#StreetAddress2,#StreetAddress3,#Zip,#confirmbankaccountnumber,#physicaladdress,#physicaladdresscity,#physicaladdresscontinued,#physicaladdresscontinuedadditional,#physicaladdressziporpostal,#recipientaddress,#recipientaddressadditional,#recipientaddresscontinued,#recipientziporpostal,#renewalcardziporpostal,#renewalnameonthecard,.input-group #startingdate{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:5px 0 0 5px
+    }
+    #BankName,#Invoice,#accountpassword,#recipientemail,#recipientlastname,.input-group #recipientfirstname{
+        border:solid 1px #0080a6;
+        border-radius:5px!important
+    }
+    #BankAccountNumber,#BankRoutingNumber,#ConfirmBankAccountNumber,#ConfirmBankRoutingNumber,#bankaccountnumber,#cardnumber,#confirmbankaccountnumber,#confirmbankroutingnumber,#issuecredittransaction,#itemnumber,#ownerbankaccountnumber,.input-group #bankroutingnumber{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #FirstBankDeposit,#SecondBankDeposit,.input-group #invoiceamount{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0
+    }
+    #reenternewpin,.input-group #newpin{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #newpassword,#reenternewpassword,.input-group #oldpassword{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6!important;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #Amount,#BusinessAddress1,#BusinessAddress2,#BusinessName,#BusinessTaxId,#CCNum,#City,#Comment1,#Comment2,#ConfirmBusinessTaxId,#Email,#LegalBusinessName,#MailCity,#MailStreetAddress1,#MailStreetAddress2,#MailStreetAddress3,#UserName,#ZipCode,#businessaddress,#businessaddresscity,#businessaddresscontinued,#businessaddressziporpostal,#customeraddress,#customeraddresscontinued,#email,#flashcardcvvcid,#grossamount,#mailingaddresscity,#mailingaddresscontinuedadditional,#mailingaddressziporpostal,#ownerbankname,#processcardnumber,#renewalcardnumber,#taxidnumber,#username,.input-group #ziporpostalcodes{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #EndDate,#currentemail,.input-group #endingdate{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #achbankaccountnumber,#achbankroutingnumber,#cardexpirationdate,#storedbankaccountnumber,#storedbankroutingnumber,.input-group #cardbrand{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    .input-group #PayerName{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important;
+        padding:0 5px 0 10px!important
+    }
+    #CardExpirationMonth{
+        margin-right:4px
+    }
+    #CardExpirationYear{
+        margin-left:4px
+    }
+    #typetodisplay,#yearddl,select#monthddl{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#Type{
+        border:solid 1px #0080a6;
+        border-radius:5px;
+        padding:0 5px 0 8px
+    }
+    #scheduledTransferddl,#transferOptions,select#authorizationcurrency{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#recipientcountry{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#businessaddressstate{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:5px 0 0 5px
+    }
+    #MailState,#flashcardexpirationmonth,#flashcardexpirationyear,#recipientstate,#renewalcardexpirationmonth,#renewalcardexpirationyear,select#mailingaddressstate{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#searchactiontype{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #FlashCardExpirationYear{
+        padding:0 0 0 5px!important
+    }
+    #AuthorizationCurrencySearch,#FlashCardCVVCID,#InvoiceNumber{
+        padding:0!important
+    }
+    ul#LanguageOptions{
+        float:right!important
+    }
+    ul#LanguageOptionsList{
+        margin:8px 0 0 0!important
+    }
+    #CreditCardExpirationMonth,#CreditCardExpirationYear{
+        padding:0!important
+    }
+    select#physicaladdressstate{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #State,#cardbrand,#documentcategory,#renewalcardbrand,#renewalcardexpirationmonth,#renewalcardexpirationyear,select#businessaddressstate{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#AuthorizationCurrency{
+        border:solid 1px #0080a6;
+        border-radius:5px;
+        padding:0 5px 0 8px
+    }
+    #City,#StreetAddress1,#StreetAddress2,#StreetAddress3,#Zip,#mailingaddress,#mailingaddresscontinued,#nameonthecard,#physicaladdresscity,#physicaladdresscontinued,#physicaladdresscontinuedadditional,#physicaladdressziporpostal,#recipientaddress,#recipientaddressadditional,#recipientaddresscontinued,#recipientziporpostal,#renewalcardziporpostal,#renewalnameonthecard,#storedcreditcardaddress,#storedcreditcardcity,#storedcreditcardexpirationdate,#storedcreditcardnumber,#storedcreditcardstate,#storedcreditcardzipcode,#storednameprintedonthecard,.input-group #physicaladdress{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    .input-group #TransactionNumber{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important;
+        padding:0 5px 0 10px!important
+    }
+    #AccountLastFourDigits,#AdvancedAuthorizationCurrency,#AuthorizationCurrency,#FirstComment,#GrossAmount,#TransactionID{
+        padding:0
+    }
+    #AdvancedPayerName,#InvoiceNumber,#PayerEmail,#SearchActionType,#SearchAffectedName,#SearchName,#SecondComment,#Username{
+        padding:0
+    }
+    select#TypeToDisplay{
+        padding:0
+    }
+    #ProductCheckoutButton{
+        width:100%!important
+    }
+}
+@media(max-width:420px) and (min-width:320px){
+    #CardExpirationMonth{
+        padding:0 4px 0 0!important
+    }
+    #CardExpirationYear{
+        padding:0 0 0 4px!important
+    }
+    #CreditCardExpirationMonth,#CreditCardExpirationYear,#DatePickerContainer{
+        padding:0!important
+    }
+    #Amount,#BankName,#BusinessAddress1,#BusinessAddress2,#BusinessName,#BusinessTaxId,#CCNum,#City,#Comment1,#Comment2,#ConfirmBusinessTaxId,#Email,#LegalBusinessName,#MailCity,#MailStreetAddress1,#MailStreetAddress2,#MailStreetAddress3,#MailZip,#SweepDate,#UserName,#ZipCode,#businessaddress,#businessaddresscity,#businessaddresscontinued,#businessaddressziporpostal,#buyersemail,#buyersfirstname,#buyerslastname,#customerlastname,#grossamount,#mailingaddress,#mailingaddresscity,#mailingaddresscontinued,#mailingaddresscontinuedadditional,#mailingaddressziporpostal,#processcardnumber,#renewalcardnumber,#searchaffectedaccount,#searchname,#storedbankname,#taxidnumber,#username,.input-group #cardholderfirstname{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    .input-group #PayerName{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important;
+        padding:0 5px 0 10px!important
+    }
+    #Invoice,.input-group #invoicenumber{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    .input-group #ziporpostalcodes{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #accountpassword,#flashcardcvvcid,#nameonthecard,#recipientemail,#recipientlastname,#renewalcardziporpostal,#renewalnameonthecard,.input-group #recipientfirstname{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #StartDate,#startingdate,.input-group #achinvoicenumber{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:5px 0 0 5px
+    }
+    #ConfirmPhonePin,#EndDate,#PhonePin,#addbankaccount,#addbankaccountnumber,#addbankroutingnumber,#addconfirmbankroutingnumber,#endingdate,#issuecredittransaction,#itemnumber,#recipientbankaccountnumber,#storedbankaccountnumber,#storedbankroutingnumber,.input-group #cardnumber{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #FirstBankDeposit,#SecondBankDeposit,#invoiceamount,.input-group #donationamount{
+        border-top:solid 1px #0080a6;
+        border-right:solid 1px #0080a6;
+        border-bottom:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0
+    }
+    #currentemail,.input-group #bankroutingnumber{
+        border:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #achbankaccountnumber,#achbankroutingnumber,#cardexpirationdate,.input-group #cardbrand{
+        border:solid 1px #0080a6;
+        border-left:solid 1px #0080a6;
+        border-radius:0 5px 5px 0
+    }
+    #bankaccountnumber,.input-group #BankAccountNumber{
+        border:solid 1px #0080a6!important;
+        border-left:solid 1px #0080a6!important;
+        border-radius:0 5px 5px 0!important
+    }
+    #storedcreditcardaddress,#storedcreditcardcity,#storedcreditcardexpirationdate,#storedcreditcardstate,#storedcreditcardzipcode,#storednameprintedonthecard,.input-group #storedcreditcardnumber{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important
+    }
+    #MailState,#State,#businessaddressstate,#mailingaddressstate,#physicaladdressstate,#recipientstate,select#searchactiontype{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #AuthorizationCurrency,#scheduledTransferddl,#transferOptions,#typetodisplay,select#authorizationcurrency{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    select#Type{
+        border:solid 1px #0080a6;
+        border-radius:5px;
+        padding:0 5px 0 5px!important
+    }
+    select#SweepReportType{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #cardbrand,#documentcategory,#flashcardexpirationmonth,#flashcardexpirationyear,#renewalcardbrand,#renewalcardexpirationmonth,#renewalcardexpirationyear,select#recipientcountry{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    #City,#StreetAddress1,#StreetAddress2,#StreetAddress3,#Zip,#physicaladdresscity,#physicaladdresscontinued,#physicaladdresscontinuedadditional,#physicaladdressziporpostal,#recipientaddress,#recipientaddressadditional,#recipientaddresscontinued,#recipientziporpostal,.input-group #physicaladdress{
+        border:solid 1px #0080a6;
+        border-radius:5px
+    }
+    .input-group #TransactionNumber{
+        border:solid 1px #0080a6!important;
+        border-radius:5px!important;
+        padding:0 5px 0 10px!important
+    }
+    #FlashCardExpirationYear{
+        padding:0 0 0 5px!important
+    }
+    #AuthorizationCurrencySearch,#FlashCardCVVCID,#IssuedCreditAmount,#TransactionID{
+        padding:0!important
+    }
+    #AccountLastFourDigits,#AdvancedAuthorizationCurrency,#FirstComment,#GrossAmount{
+        padding:0
+    }
+    #AdvancedPayerName,#InvoiceNumber,#PayerEmail,#SearchActionType,#SearchAffectedName,#SearchName,#SecondComment,#Username{
+        padding:0
+    }
+    select#TypeToDisplay{
+        padding:0
+    }
+    #ProductCheckoutButton{
+        width:100%!important
+    }
+}
+#refund-amount{
+    position:absolute;
+    font-size:10px;
+    padding:0 4px;
+    margin:-6px 0 0 1px!important;
+    color:#0080a6;
+    font-weight:600;
+    z-index:105;
+    background-color:#fff
+}
+.review-label{
+    font-size:10px;
+    text-align:left;
+    padding:5px 0 0 5px;
+    color:#0080a6;
+    font-weight:600
+}
+.review-placeholder{
+    font-size:16px;
+    text-align:left;
+    padding-left:15px;
+    min-height:25px
+}
+div#product-description-header{
+    height:50px
+}
+div#product-description-header .fa{
+    color:#f59e02;
+    font-size:14px
+}
+.product-header{
+    font-weight:500;
+    color:#0080a6;
+    padding-bottom:9px;
+    margin:10px 0 20px 10px
+}
+.discounted-plan-price{
+    text-decoration:line-through;
+    font-size:22px;
+    font-weight:700
+}
+.discounted-plan-percentage{
+    background-color:#0080a6;
+    padding:6px;
+    margin-left:10px;
+    font-size:13px;
+    color:#fff
+}
+#pricing-model,#product-pricing,div#discounted-price{
+    text-align:center
+}
+div#discounted-price{
+    font-size:17px;
+    padding-top:10px
+}
+div#pricing-model{
+    font-size:18px;
+    letter-spacing:3px;
+    font-weight:600
+}
+div#product-pricing{
+    padding:0;
+    border:none
+}
+div#product-pricing h1{
+    font-size:5.2em;
+    color:#0080a6;
+    font-weight:300;
+    padding:0;
+    margin:0 0 8px 0;
+    border:none
+}
+div#product-pricing small{
+    position:relative;
+    top:-12px;
+    left:12px;
+    font-size:33px;
+    text-align:left;
+    color:#0080a6;
+    border:none
+}
+div#pricing-summary{
+    height:40px;
+    border-top:solid 1px #0080a6;
+    border-bottom:solid 2px #0080a6
+}
+div#pricing-summary div{
+    font-weight:400;
+    color:#0080a6;
+    text-align:center;
+    padding-top:8px
+}
+div#pricing-breakdown div{
+    font-weight:600;
+    color:#0080a6;
+    text-align:center;
+    font-size:16px
+}
+@media(max-width:991px) and (min-width:421px){
+    div#pricing-summary{
+        height:40px;
+        border-top:solid 1px #0080a6;
+        border-bottom:solid 2px #0080a6
+    }
+}
+@media(max-width:420px) and (min-width:320px){
+    .product-header{
+        font-size:2.4em!important;
+        font-weight:400;
+        color:#0080a6;
+        padding-bottom:9px;
+        margin:10px 0 20px 5px!important;
+        text-align:center!important
+    }
+    div#discounted-price{
+        font-size:16px;
+        padding-top:0
+    }
+    div#product-pricing h1{
+        font-size:4.5em;
+        color:#0080a6;
+        font-weight:300;
+        padding:0;
+        margin:0 0 15px 0;
+        border:none
+    }
+    div#product-pricing small{
+        position:relative;
+        top:-12px;
+        left:12px;
+        font-size:25px;
+        text-align:left;
+        color:#0080a6;
+        border:none
+    }
+    div#pricing-summary{
+        height:58px;
+        border-top:solid 1px #0080a6;
+        border-bottom:solid 2px #0080a6
+    }
+}
+.btn-file{
+    position:relative;
+    overflow:hidden
+}
+.btn-file input[type=file]{
+    position:absolute;
+    top:0;
+    right:0;
+    min-width:100%;
+    min-height:100%;
+    opacity:0;
+    outline:0;
+    background:0 0;
+    cursor:inherit;
+    display:block
+}
+#img-upload{
+    width:100%
+}
+input[type=file]{
+    padding:6px 8px;
+    background-color:transparent;
+    border:solid 1px #0080a6;
+    width:100%;
+    border-radius:6px 0 0 6px
+}
+#fileButton{
+    height:34px
+}
+#disputechargebacks,#limit-increase-request,#transaction-review,input#account-verification{
+    border-radius:0 5px 5px 0!important
+}
+.rate-row{
+    display:flex;
+    flex-wrap:wrap
+}
+.rate-column-left{
+    flex-basis:0;
+    flex-grow:1;
+    text-align:right;
+    padding-right:5px;
+    font-size:14px
+}
+.rate-column-right{
+    flex-basis:0;
+    flex-grow:1;
+    text-align:left;
+    padding-left:5px;
+    font-size:14px
+}
+@media(max-width:480px){
+    .rate-column-left{
+        flex-basis:0;
+        flex-grow:1;
+        text-align:right;
+        padding-right:0;
+        font-size:14px
+    }
+    .rate-column-right{
+        flex-basis:0;
+        flex-grow:1;
+        text-align:right;
+        padding-right:0;
+        font-size:14px
+    }
+}
+footer{
+    background:#242424;
+    padding:30px 35px 15px 35px;
+    display:block;
+    width:auto!important
+}
+footer div.footer-text-color{
+    color:#686b6a;
+    font-size:11.9px;
+    letter-spacing:normal!important
+}
+footer div.footer_copyright_text_color{
+    color:#686b6a;
+    font-weight:300;
+    text-align:center;
+    letter-spacing:normal!important;
+    padding-top:10px;
+    clear:both
+}
+#AccountHistoryResult,#AdvancedTransactionResults,#CardTransactions,#ConsolidatedFeeReport,#PendingTransactions,#SweepReport,#TransactionReport{
+    font-weight:inherit;
+    color:#333;
+    border-radius:2px!important
+}
+.take-an-action-container{
+    border:solid 1px #0080a6;
+    border-radius:8px;
+    text-align:center!important;
+    height:208px;
+    width:100%
+}
+.take-an-action-container-header{
+    background-color:#0080a6;
+    color:#fff;
+    border-radius:6px 6px 0 0;
+    height:auto;
+    margin:0
+}
+textarea#AcceptanceExplanation{
+    width:100%;
+    min-height:210px;
+    border-radius:8px
+}
+textarea#AcceptanceExplanation:focus{
+    outline:0
+}
+.user-file-uploader{
+    min-height:208px;
+    padding:19px;
+    margin-bottom:20px;
+    background-color:#fff;
+    border:1px dashed #a9a9a9;
+    border-radius:4px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.05)
+}
+label.click-to-upload{
+    cursor:pointer;
+    border:none;
+    position:inherit;
+    color:#707070;
+    z-index:2!important;
+    text-align:center;
+    opacity:.75!important
+}
+input.user-file-picker[type=file]{
+    display:block;
+    border:dotted 1px #9fc163!important;
+    opacity:0;
+    position:absolute;
+    z-index:-1
+}
+span.display-block{
+    display:block!important
+}
+.upload-file-type{
+    font-size:10px;
+    padding-left:15px
+}
+@media screen and (max-width:991px){
+    .upload-file-type{
+        font-size:11px;
+        display:inline
+    }
+}
+@media screen and (max-width:767px) and (min-width:481px){
+    .upload-file-type{
+        font-size:12px;
+        display:inline
+    }
+}
+@media screen and (max-width:480px){
+    .upload-file-type{
+        font-size:10px;
+        display:block
+    }
+}
+.hidden-qa-code{
+    font-family:inherit;
+    font-size:inherit;
+    padding-left:10px;
+    color:#242424;
+    font-weight:600
+}
+.dataTables_paginate{
+    float:right;
+    text-align:right
+}
+.dataTables_paginate a{
+    background:0 0;
+    padding:6px 9px!important;
+    border-color:#ddd!important
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    box-sizing:border-box;
+    display:inline-block;
+    min-width:1.5em;
+    padding:.5em 1em;
+    margin-left:2px;
+    text-align:center;
+    text-decoration:none!important;
+    cursor:pointer;
+    color:#0080a6!important;
+    border:1px solid transparent;
+    border-radius:0
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    color:#fff!important;
+    font-weight:600;
+    border:1px solid #979797;
+    background-color:#fff;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(100%,#000))!important;
+    background:-webkit-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:-moz-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:-ms-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:-o-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:linear-gradient(to bottom,#0080a6 0,#0080a6 100%)!important
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active,.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover{
+    cursor:default;
+    color:#0080a6!important;
+    border:1px solid transparent;
+    background:0 0;
+    box-shadow:none
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    color:#fff!important;
+    border:1px solid #002776!important;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#002776),color-stop(100%,#002776))!important;
+    background:-webkit-linear-gradient(top,#002776 0,#002776 100%)!important;
+    background:-moz-linear-gradient(top,#002776 0,#002776 100%)!important;
+    background:-ms-linear-gradient(top,#002776 0,#002776 100%)!important;
+    background:-o-linear-gradient(top,#002776 0,#002776 100%)!important;
+    background:linear-gradient(to bottom,#002776 0,#002776 100%)!important;
+    background-color:#002776!important
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{
+    outline:0;
+    background-color:#0080a6!important;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#0080a6),color-stop(100%,#0080a6))!important;
+    background:-webkit-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:-moz-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:-ms-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:-o-linear-gradient(top,#0080a6 0,#0080a6 100%)!important;
+    background:linear-gradient(to bottom,#0080a6 0,#0080a6 100%)!important;
+    box-shadow:inset 0 0 3px #111!important
+}
+div#AdministratorCheckbox{
+    border:solid 1px #0080a6;
+    border-radius:6px 6px 0 0;
+    border-bottom:solid 2px #0080a6;
+    font-family:inherit!important;
+    font-size:inherit!important;
+    margin:0 auto;
+    max-width:320px;
+    min-width:260px;
+    padding-top:15px;
+    text-align:center
+}
+.right-desktop-left-mobile{
+    text-align:right
+}
+input[type=checkbox].selectall{
+    width:17px;
+    height:17px;
+    vertical-align:top;
+    margin:0 0 2px 0
+}
+input[type=checkbox].justone{
+    width:17px;
+    height:17px;
+    vertical-align:top;
+    margin:0 0 2px 0
+}
+span.role-label-admin{
+    padding:0!important;
+    margin:0!important;
+    font-weight:500;
+    font-size:18px
+}
+span.role-label{
+    padding:0!important;
+    margin:0!important;
+    font-weight:400;
+    font-size:inherit
+}
+.mdlr0{
+    padding:0 8px
+}
+@media screen and (max-width:420px){
+    div#AdministratorCheckbox{
+        border:solid 1px #0080a6;
+        border-radius:6px 6px 0 0;
+        border-bottom:solid 2px #0080a6;
+        font-size:12px;
+        margin:0 auto;
+        max-width:280px;
+        min-width:250px;
+        padding-top:15px;
+        text-align:center
+    }
+    span.role-label{
+        padding:0!important;
+        margin:0!important;
+        font-weight:400;
+        font-size:12px
+    }
+    .mdlr0{
+        padding:0 1px
+    }
+}
+table#product-list{
+    width:100%
+}
+table#product-list thead tr th{
+    background-color:#fff!important;
+    font-weight:500;
+    color:#0080a6!important;
+    border-bottom:solid 2px #0080a6;
+    padding:5px 2px 8px 2px
+}
+table#product-list tbody{
+    background-color:#fff;
+    color:#333!important
+}
+table#product-list tbody tr td:first-child{
+    font-weight:500;
+    text-align:left!important
+}
+table#product-list tbody tr td{
+    font-weight:300;
+    text-align:right!important
+}
+table#product-list tbody tr td:last-child{
+    font-weight:600;
+    text-align:right!important
+}
+table#product-list tbody tr#product-totals{
+    clear:both;
+    padding-top:10px;
+    margin-top:10px
+}
+table#product-list tbody tr#product-totals td:last-child{
+    border-top:dotted 1px #0080a6;
+    padding:4px 0;
+    text-align:left;
+    font-weight:600;
+    border-bottom:solid 1px #0080a6
+}
+table#product-list tbody tr td.qty{
+    text-align:center!important
+}
+table#product-list tbody tr td.item-cost{
+    padding:0 4px 0 0;
+    font-weight:500
+}
+table#product-list tbody tr td.tax{
+    margin:0 5px 0 3px
+}
+table#product-list tbody tr td.shipping-cost{
+    padding:0 4px 0 0;
+    font-weight:500
+}
+table#product-list tbody tr td.total{
+    margin:0 0 0 5px
+}
+.switchshippingaddressvisiblity{
+    padding:0;
+    margin:0;
+    display:none;
+    border:none
+}
+.shipping-address,.shipping-address-continued,.shipping-city,.shipping-postal-code{
+    border:solid 1px #0080a6;
+    border-radius:5px!important
+}
+select.shipping-state{
+    color:#999!important;
+    border:solid 1px #0080a6;
+    border-radius:5px!important
+}
+table input.row-selector{
+    width:17px;
+    height:17px;
+    margin:0 5px
+}
+#radio-container-left{
+    text-align:right!important
+}
+#radio-container-left div{
+    display:inline;
+    border:solid 1px #cecece;
+    border-radius:6px;
+    padding:13px 9px 6px 10px!important;
+    margin:0 5px
+}
+#radio-container-left span{
+    display:inline;
+    font-weight:600;
+    font-size:15px
+}
+@media screen and (max-width:667px){
+    #radio-container-left{
+        text-align:left!important
+    }
+    #radio-container-left div{
+        display:inline;
+        border:solid 1px #cecece;
+        border-radius:6px;
+        padding:13px 6px 6px 10px!important;
+        margin:0 5px
+    }
+    .right-desktop-left-mobile{
+        text-align:left!important
+    }
+}
+#radio-container-right{
+    text-align:left!important
+}
+#radio-container-right div{
+    display:inline;
+    border:solid 1px #cecece;
+    border-radius:6px;
+    padding:13px 6px 6px 10px!important;
+    margin:0 5px
+}
+#radio-container-right span{
+    display:inline;
+    font-weight:600;
+    font-size:15px;
+    margin-bottom:-5px!important
+}
+.PaymentMethodDiv{
+    padding:20px;
+    margin-top:20px
+}
+.RequiredDiv{
+    padding:20px;
+    display:none;
+    margin-top:20px
+}
+.ProPayAccount{
+    background:0 0;
+    display:normal;
+    border-top:solid 1px #cdcdcd;
+    padding:18px 0 0;
+    clear:both
+}
+.DebitOrCreditCardAccount{
+    background:0 0;
+    display:none;
+    border-top:solid 1px #cdcdcd;
+    clear:both
+}
+.LegalInformationDisclosure{
+    background:0 0;
+    display:block;
+    border-top:none;
+    padding-top:15px;
+    clear:both
+}
+#CardBillingCity{
+    padding:0 5px 0 0
+}
+#CardBillingState{
+    padding:0 5px 0 5px
+}
+#CardBillingZipPode{
+    padding:0 0 0 5px
+}
+input#creditcardbillingzipcode{
+    border-radius:0 5px 5px 0!important
+}
+@media(max-width:768px) and (min-width:668px){
+    #CardBillingCity{
+        padding:0 5px 0 0
+    }
+    #CardBillingState{
+        padding:0 5px 0 5px
+    }
+    input#creditcardbillingzipcode{
+        border-radius:5px!important;
+        border:solid 1px #0080a6!important
+    }
+}
+@media(max-width:667px) and (min-width:481px){
+    #CardBillingCity{
+        padding:0
+    }
+    #CardBillingState{
+        padding:0 5px 0 0
+    }
+    input#creditcardbillingzipcode{
+        border-radius:5px!important;
+        border:solid 1px #0080a6!important;
+        margin:0 5px 0 0
+    }
+}
+@media(max-width:480px) and (min-width:320px){
+    #CardBillingCity{
+        padding:0
+    }
+    #CardBillingState{
+        padding:0 5px 0 0
+    }
+    input#creditcardbillingzipcode{
+        border-radius:5px!important;
+        border:solid 1px #0080a6!important
+    }
+    span.legal-information-spacing{
+        line-height:1.6
+    }
+}
+.divToggle{
+    padding:3px 5px 8px
+}
+div #achTransferAccountInfo{
+    min-height:85px;
+    border:solid 1px #0080a6
+}
+div #achTransferAccountInfo .achInfoContainer{
+    min-height:35px;
+    padding-top:9px
+}
+div #bigEditButton{
+    background-color:#0080a6;
+    height:88px;
+    border-radius:0
+}
+div #bigEditButton a:link{
+    color:#fff;
+    text-decoration:none
+}
+div #bigEditButton a:hover{
+    color:#ccc;
+    text-decoration:none
+}
+div #bigEditButton a:visited{
+    color:#fff;
+    text-decoration:none
+}
+div #bigEditButton .centerEditButton{
+    margin:27px auto auto auto!important;
+    text-align:center;
+    text-wrap:none;
+    border:none
+}
+div #smallEditButton{
+    background-color:#0080a6;
+    height:45px;
+    border-radius:0
+}
+div #smallEditButton a:link{
+    color:#fff;
+    text-decoration:none
+}
+div #smallEditButton a:hover{
+    color:#ccc;
+    text-decoration:none
+}
+div #smallEditButton a:visited{
+    color:#fff;
+    text-decoration:none
+}
+div #smallEditButton .centerEditButton{
+    margin:8% auto 21% auto!important;
+    text-align:center;
+    text-wrap:none;
+    border:none
+}
+div #bankAccountNumberInfo{
+    min-height:45px;
+    border:solid 1px #0080a6
+}
+div #bankAccountNumberInfo .achInfo{
+    min-height:35px;
+    padding-top:9px
+}
+div #flashFundsInfo{
+    min-height:85px;
+    border:solid 1px #0080a6
+}
+div #flashFundsInfo .flashFundCardInfo{
+    min-height:35px;
+    padding-top:9px
+}
+#bigEditButton{
+    min-height:85px;
+    border:solid 1px #0080a6
+}
+.flashFundInfo{
+    min-height:35px;
+    padding-top:9px
+}
+.flashFundsBankInfo{
+    min-height:35px;
+    padding-top:9px
+}
+@media(max-width:1024px){
+    div #bigEditButton{
+        background-color:#0080a6;
+        height:88px;
+        border-radius:0
+    }
+    div #bigEditButton .centerEditButton{
+        margin:24% auto 26% auto!important;
+        text-align:center;
+        text-wrap:none;
+        border:none
+    }
+    div #bankAccountInfo .achInfo{
+        min-height:35px;
+        padding-top:8px
+    }
+    .flashFundInfo{
+        min-height:35px;
+        padding-top:8px
+    }
+}
+@media(max-width:767px){
+    .divToggle{
+        padding:3px 2px 8px
+    }
+    div #flashFundsInfo{
+        min-height:114px;
+        border:solid 1px #0080a6
+    }
+    div #achTransferAccountInfo{
+        min-height:114px;
+        border:solid 1px #0080a6
+    }
+    div #bigEditButton{
+        background-color:#0080a6;
+        height:114px;
+        border-radius:0
+    }
+    div #bigEditButton .centerEditButton{
+        margin:38px auto 10px auto!important;
+        text-align:center;
+        text-wrap:none;
+        border:none
+    }
+    div #smallEditButton{
+        background-color:#0080a6;
+        height:56px;
+        border-radius:0
+    }
+    div #bankAccountInfo .achInfo{
+        min-height:48px;
+        padding-top:4px
+    }
+    div #bankAccountNumberInfo .achInfo{
+        min-height:35px;
+        padding-top:9px
+    }
+    div #smallEditButton .centerEditButton{
+        margin:20% auto 21% auto!important;
+        text-align:center;
+        border:none
+    }
+    .flashFundInfo{
+        min-height:48px;
+        padding-top:4px
+    }
+    #bigEditButton{
+        min-height:114px;
+        border:solid 1px #0080a6
+    }
+    .right-desktop-left-mobile{
+        text-align:left!important
+    }
+}
+.packagePricing{
+    text-align:center;
+    font-size:16px;
+    padding:15px 0;
+    margin:5px 0 15px 0;
+    border-top:solid 1px #0080a6;
+    border-bottom:solid 2px #0080a6;
+    background-color:#f0f8ff
+}
+.packagePricing{
+    text-align:center;
+    font-size:16px;
+    padding:15px 0;
+    margin:5px 0 15px 0;
+    border-top:solid 1px #0080a6;
+    border-bottom:solid 2px #0080a6;
+    background-color:#f0f8ff
+}
+span a:link{
+    font-size:14px!important;
+    color:#0080a6!important;
+    font-weight:500!important
+}
+span a:focus{
+    font-size:14px!important;
+    color:#002776!important;
+    font-weight:500!important;
+    text-shadow:none!important
+}
+span a:visited{
+    font-size:14px!important;
+    color:#0080a6!important;
+    font-weight:500!important
+}
+table.dataTable tfoot.specialFooter th{
+    padding:10px 10px 10px 12px;
+    background-color:transparent!important;
+    color:#333!important;
+    border-top:solid 2px #0080a6;
+    border-right:none;
+    border-radius:0!important
+}
+#myButtonAlignment.dl-horizontal dt{
+    float:left;
+    width:57px!important;
+    min-height:50px;
+    clear:left;
+    text-align:center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    border:none
+}
+#myButtonAlignment.dl-horizontal dd{
+    margin-left:auto!important;
+    vertical-align:middle!important;
+    border:none
+}
+#myButtonAlignmentFooter.dl-horizontal dt{
+    float:left;
+    width:57px!important;
+    min-height:50px;
+    clear:left;
+    text-align:center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    border:none
+}
+#myButtonAlignmentFooter.dl-horizontal dd{
+    margin-left:auto!important;
+    vertical-align:middle!important;
+    border:none
+}
+.ml5neg{
+    margin-left:-5px
+}
+.dpt10mpt0{
+    padding-top:10px
+}
+@media(max-width:991px) and (min-width:768px){
+    .dpt10mpt0{
+        padding-top:8px!important
+    }
+}
+@media(max-width:696px){
+    .dpt10mpt0{
+        padding-top:0
+    }
+}
+input.notRequiredInput{
+    border:1px solid #0080a6;
+    border-radius:0 5px 5px 0
+}
+input.requiredInput{
+    border:1px solid #0080a6;
+    border-radius:0 5px 5px 0
+}
+select.notRequiredInput{
+    border:1px solid #0080a6;
+    border-radius:0 5px 5px 0
+}
+select.requiredInput{
+    border:1px solid #0080a6;
+    border-radius:0 0 0 0
+}
+@media screen and (max-width:1023px) and (min-width:768px){
+    input,select.notRequiredInput{
+        border:1px solid #0080a6!important;
+        border-radius:5px!important
+    }
+    input.requiredInputWithoutAsterisk{
+        border:1px solid #0080a6!important;
+        border-radius:5px!important
+    }
+    input.requiredInput{
+        border:1px solid #0080a6!important;
+        border-radius:5px!important
+    }
+    select.requiredInput{
+        border:1px solid #0080a6!important;
+        border-radius:5px 0 0 5px!important
+    }
+}
+@media(max-width:480px){
+    input,select.notRequiredInput{
+        border:1px solid #0080a6!important;
+        border-radius:5px!important
+    }
+    input.requiredInput{
+        border:1px solid #0080a6!important;
+        border-radius:5px!important
+    }
+    select.requiredInput{
+        border:1px solid #0080a6!important;
+        border-radius:5px 0 0 5px!important
+    }
+}
+input.requiredInputLeftIcon{
+    border:1px solid #0080a6!important;
+    border-radius:0 5px 5px 0!important
+}
+input.requiredInputLeftIconDesktopNoneMobile{
+    border:1px solid #0080a6!important;
+    border-radius:0 5px 5px 0!important
+}
+input.requiredInputLeftIconAndAsterisk{
+    border:1px solid #0080a6!important;
+    border-radius:0 0 0 0!important
+}
+input.requiredInputLeftIconAndAsteriskNoneMobile{
+    border:1px solid #0080a6;
+    border-radius:0 0 0 0!important
+}
+select.requiredInputLeftIconAndAsteriskNoneMobile{
+    border:1px solid #0080a6;
+    border-radius:0 0 0 0!important
+}
+@media screen and (max-width:969px) and (min-width:768px){
+    input.requiredInputLeftIconDesktopNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px!important
+    }
+    input.requiredInputLeftIconAndAsterisk{
+        border:1px solid #0080a6!important;
+        border-radius:0 0 0 0!important
+    }
+    input.requiredInputLeftIconAndAsteriskNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px 0 0 5px!important
+    }
+    select.requiredInputLeftIconAndAsteriskNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px 0 0 5px!important
+    }
+}
+@media screen and (max-width:767px) and (min-width:481px){
+    input.requiredInputLeftIconDesktopNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px!important
+    }
+    input.requiredInputLeftIconAndAsterisk{
+        border:1px solid #0080a6!important;
+        border-radius:0 0 0 0!important
+    }
+    input.requiredInputLeftIconAndAsteriskNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px 0 0 5px!important
+    }
+    select.requiredInputLeftIconAndAsteriskNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px 0 0 5px!important
+    }
+}
+@media(max-width:480px){
+    input.requiredInputLeftIconDesktopNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px!important
+    }
+    input.requiredInputLeftIconAndAsterisk{
+        border:1px solid #0080a6!important;
+        border-radius:0 0 0 0!important
+    }
+    input.requiredInputLeftIconAndAsteriskNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px 0 0 5px!important
+    }
+    select.requiredInputLeftIconAndAsteriskNoneMobile{
+        border:1px solid #0080a6;
+        border-radius:5px 0 0 5px!important
+    }
+}
+#businessDescription:focus{
+    border:1px solid #0080a6;
+    background-color:#fcfcfc
+}
+#SweepReportTable{
+    width:100%!important
+}
+.response-code{
+    color:blue;
+    text-decoration:underline;
+    cursor:pointer;
+}
